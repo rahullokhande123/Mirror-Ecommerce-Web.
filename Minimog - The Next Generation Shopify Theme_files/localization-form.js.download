@@ -1,0 +1,9 @@
+/** Shopify CDN: Minification failed
+
+Line 9:47 Transforming class syntax to the configured target environment ("es5") is not supported yet
+Line 9:86 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 9:97 Transforming const to the configured target environment ("es5") is not supported yet
+Line 9:190 Transforming const to the configured target environment ("es5") is not supported yet
+
+**/
+if(!customElements.get("m-localization-form")){class t extends HTMLElement{constructor(){super();const t=this.querySelector("[data-localization-select]");t&&t.addEventListener("change",(e=>{const a=e.target.value,o=t.closest("[data-localization-form]"),l=o.querySelector("input[data-localization-input]");l&&l.setAttribute("value",a),l&&o.submit()}))}}customElements.define("m-localization-form",t)}

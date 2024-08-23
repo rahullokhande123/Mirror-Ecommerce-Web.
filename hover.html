@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #div1 {
+            width: 400px;
+            height: 200px;
+            border: 1px solid black;
+            overflow-x: hidden;
+        }
+
+        #div1 img {
+            width: 400px;
+        }
+
+        #div1 img:hover {
+            scale: 1.3;
+            transition: scale 2s;
+        }
+
+        #btn {
+            width: 200px;
+            margin: 30px;
+            padding: 10px;
+            border-radius: 30px;
+            background-color: rgb(44, 44, 110);
+            color: white;
+        }
+
+        #btn:hover {
+            background-color: white;
+            color: rgb(44, 44, 110);
+            transition: all 1s;
+        }
+        #div2::selection{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <div id="div1">
+            <img src="./4k-mercedes-car-2018-0f2otaa9l0gn0xjr.jpg" alt="">
+        </div>
+    </center>
+    <center>
+        <button id="btn"> Inquire Now </button>
+    </center>
+    <div id="div2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, recusandae. Libero similique provident non
+        aperiam iste quisquam itaque neque, sunt nihil nulla atque soluta quos dolores voluptas eaque laborum tenetur.
+    </div>
+</body>
+
+</html>

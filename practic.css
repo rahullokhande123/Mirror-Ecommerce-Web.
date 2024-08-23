@@ -1,0 +1,182 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+/*=============== nav =============*/
+.nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+   background-color: rgb(19, 100, 109);
+    background-size: 1000px;
+
+}
+
+.nav .startnav {
+    list-style-type: none;
+}
+
+.nav .midnav {
+    display: flex;
+    list-style-type: none;
+
+    margin: 2px;
+}
+
+.nav .midnav li a {
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+}
+
+.nav .endnav li a {
+    display: flex;
+    color: white;
+    border: 2px solid white;
+    text-decoration: none;
+    padding: 8px 8px 8px 8px;
+    color: ;
+    border-radius: 10px;
+
+
+
+}
+
+.nav .endnav {
+    list-style-type: none;
+}
+/*=============== Section (hero) =============*/
+.hero {
+    display: flex;
+    height: 100px;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    background-image: url(https://i.pinimg.com/originals/84/b1/49/84b149b81e937e578af32aaa097c66fe.jpg);
+    height: 350px;
+}
+
+.hero .hero1 {
+
+    color: black
+}
+
+.hero .hero1 {
+    color: white;
+    padding-top: 100px;
+}
+
+.hero .hero1 div {
+    font-family: 'Protest Riot', sans-serif;
+}
+
+.hero .hero2 img {
+    width: 300px;
+    height: 350px;
+}
+.hero .hero3{
+    font-family: 'Protest Riot', sans-serif;
+    justify-content: center;
+    margin-top: 20px;
+    color: white;
+    
+}
+/*=============== Section 2 (part) =============*/
+.part{
+    display: flex;
+    padding: 120px;
+    justify-content: space-evenly;
+    background-image: url(./NblkQC.webp);
+    
+    
+    
+}
+.part .part1 .one{
+    display: flex;
+    font-family: 'Protest Riot', sans-serif;
+    margin: 10px;
+   
+}
+.part .part1 .one{
+    padding: 8px 300px 8px 8px;
+    background-color:  rgb(53, 28, 71);
+    color: white;
+}
+.part .part2 img{
+    width: 400px;
+    height: 300px;
+}
+.part .part1 .three{
+    padding: 8px 50px 8px 8px;
+    background-color:  rgb(53, 28, 71);
+    color: white;
+    margin: 10px;
+    font-family: 'Protest Riot', sans-serif;
+}
+.part .part1 .two{
+    color: white;
+    margin: 10px;
+    font-family: 'Protest Riot', sans-serif;
+}
+.part .part1 .for{
+    color: white;
+    margin: 10px;
+    font-family: 'Protest Riot', sans-serif;
+}
+.part .part1 .six{
+    color: white;
+    margin: 10px;
+    font-family: 'Protest Riot', sans-serif;
+}
+.part .part1 .five{
+    padding: 5px 100px 5px 5px;
+    background-color:  rgb(53, 28, 71);
+    color: white;
+    margin: 10px;
+    font-family: 'Protest Riot', sans-serif;
+}
+/*=============== Section 3 (box) =================*/
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Protest Riot', sans-serif;
+    background-image: url(./NblkQC.webp);
+    padding: 10px 50px 50px 50px;
+    color: white;
+    
+    
+}
+.box .box1{
+    border: 2px solid yellow;
+    padding: 20px 20px 20px 20px;
+    
+}
+.box .box2{
+    border: 2px solid yellow;
+    padding: 20px 20px 20px 20px;
+}
+.box .box3{
+    border: 2px solid yellow;
+    padding: 20px 20px 20px 20px;
+}
+.box .box4{
+    border: 2px solid yellow;
+    padding: 20px 20px 20px 20px;
+}
+#logo i{
+    font-size: 24px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50px  50px  50px  50px ;
+    padding: 8px;
+  
+}
+#logo{
+    position: absolute;
+    top: 405px;
+    left: 210px;
+}
